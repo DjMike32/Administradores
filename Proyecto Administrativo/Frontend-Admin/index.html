@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Css/estilo.css">
+   <script src="https://kit.fontawesome.com/390b75e480.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+<body>
+    <section id="PrimeraPagina">
+<div style="display:flex; justify-content: center;">
+  <div id="fondo">
+    <div class="contenedor">
+     <div class="logo" >
+      <img src="Css/Img/Nlogo.png">
+     </div>
+     <div class="cont">
+       <h3>Iniciar Sesion</h3>
+       <h5>Usuario</h5>
+       <input type="text" >
+       <h5>Contraseña</h5>
+       <input type="text" >
+      </div>
+      <div class="cont-2">
+        <div class="check"><input type="checkbox" class="casilla"><h5>Recuerdame</h5></div>
+      <button type="submit" class="menu" class="btn" onclick="mostrarSiguiente('inicio')">Iniciar sesion</button>
+       <h5>¿Olvidaste tu contraseña?</h5>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+
+<section id="inicio" class="Oculto" >
+  <div style="display:flex; flex-direction: column; justify-content: center;">
+    <nav>
+      <img class="logo" src="Css/Img/Nlogo.png">
+      <div class="titulo">Inicio</div>
+      <img class="ms" src="Css/Img/mensaje.png">
+    </nav>
+<div style="display: flex; justify-content: space-between;">
+ <div class="menu-icon"> 
+  <div class="menu">
+  <button type="submit" class="icon" onclick="mostrarSiguiente('cliente')"><h6 >Clientes</h6> <img src="Css/Img/clientes.png" ></button>
+  <button type="submit" class="icon" onclick="mostrarSiguiente('inicio')"> <img src="Css/Img/inicio.png" ></button>
+  <button type="submit" class="icon" onclick="mostrarSiguiente('EAfiliadas')"><h6>Empresas Afiliadas</h6> <img src="Css/Img/empresas afiliadas.png" ></button>
+  </div>
+ <div class="menu">
+  <button type="submit" class="icon" onclick="mostrarSiguiente('Motoristas')"><h6>Motoristas</h6> <img src="Css/Img/motoristas.png" ></button>
+  <button type="submit" class="icon" onclick="mostrarSiguiente('Admin')"><h6>Administracion</h6> <img src="Css/Img/administracion.png" ></button>
+ </div>
+</div>
+
+<div class="contInicio">
+  <div class="cajitas">
+   <div class="titulo">Perfil de usuario</div>
+  <div style="display: flex; justify-content: space-between;">
+    <img src="Css/Img/iciniUsuario.png">
+    <div>Nombre administrador <br> @PerfilAdmin</div>
+    <div><button>Revisar</button></div>
+  </div>
+</div>
+  <div class="cajitas">
+    <div class="titulo">Proximas Actividades</div>
+    <div style="display: flex; justify-content: space-between;">
+      <img src="Css/Img/calendario.png">
+      <div>Calendario</div>
+      <div><button>Revisar</button></div>
+    </div>
+  </div>
+</div>
+</div>
+  </div>
+</section>
+
+
+
+<section id="cliente" class="Oculto" >
+  <div style="display:flex; flex-direction: column; justify-content: center;">
+    <nav>
+      <img class="logo" src="Css/Img/Nlogo.png">
+      <div class="titulo">Inicio</div>
+      <img class="ms" src="Css/Img/mensaje.png">
+    </nav>
+<div style="display: flex; justify-content: space-between;">
+ <div class="menu-icon"> 
+  <div class="menu">
+  <button type="submit" class="icon" onclick="mostrarSiguiente('cliente')"><h6 >Clientes</h6> <img src="Css/Img/clientes.png" ></button>
+  <button type="submit" class="icon" onclick="mostrarSiguiente('inicio')"> <img src="Css/Img/inicio.png" ></button>
+  <button type="submit" class="icon" onclick="mostrarSiguiente('EAfiliadas')"><h6>Empresas Afiliadas</h6> <img src="Css/Img/empresas afiliadas.png" ></button>
+  </div>
+ <div class="menu">
+  <button type="submit" class="icon" onclick="mostrarSiguiente('Motoristas')"><h6>Motoristas</h6> <img src="Css/Img/motoristas.png" ></button>
+  <button type="submit" class="icon" onclick="mostrarSiguiente('Admin')"><h6>Administracion</h6> <img src="Css/Img/administracion.png" ></button>
+ </div>
+</div>
+
+<div class="contInicio">
+  <div class="cajitas">
+   <div class="titulo">Perfil de usuario</div>
+  <div style="display: flex; justify-content: space-between;">
+    <img src="Css/Img/iciniUsuario.png">
+    <div>Nombre administrador <br> @PerfilAdmin</div>
+    <div><button>Revisar</button></div>
+  </div>
+</div>
+  <div class="cajitas">
+    <div class="titulo">Proximas Actividades</div>
+    <div style="display: flex; justify-content: space-between;">
+      <img src="Css/Img/calendario.png">
+      <div>Calendario</div>
+      <div><button>Revisar</button></div>
+    </div>
+  </div>
+</div>
+</div>
+  </div>
+</section>
+
+<section id="EAfiliadas" class="Oculto" >
+  <div style="display:flex; flex-direction: column; justify-content: center;">
+    <nav>
+      <img class="logo" src="Css/Img/Nlogo.png">
+      <div class="titulo">Inicio</div>
+      <img class="ms" src="Css/Img/mensaje.png">
+    </nav>
+<div style="display: flex; justify-content: space-between;">
+ <div class="menu-icon"> 
+  <div class="menu">
+  <button type="submit"  class="icon"  onclick="mostrarSiguiente('cliente')"><h6 >Clientes</h6> <img src="Css/Img/clientes.png" ></button>
+  <button type="submit"  class="icon" onclick="mostrarSiguiente('inicio')"> <img src="Css/Img/inicio.png" ></button>
+  <button type="submit"  class="icon" onclick="mostrarSiguiente('EAfiliadas')"><h6>Empresas Afiliadas</h6> <img src="Css/Img/empresas afiliadas.png" ></button>
+  </div>
+ <div class="menu">
+  <button type="submit"  class="icon" onclick="mostrarSiguiente('Motoristas')"><h6>Motoristas</h6> <img src="Css/Img/motoristas.png" ></button>
+  <button type="submit"  class="icon" onclick="mostrarSiguiente('Admin')"><h6>Administracion</h6> <img src="Css/Img/administracion.png" ></button>
+ </div>
+</div>
+
+<div class="contInicio">
+  <div class="cajitas">
+   <div class="titulo">Perfil de usuario</div>
+  <div style="display: flex; justify-content: space-between;">
+    <img src="Css/Img/iciniUsuario.png">
+    <div>Nombre administrador <br> @PerfilAdmin</div>
+    <div><button>Revisar</button></div>
+  </div>
+</div>
+  <div class="cajitas">
+    <div class="titulo">Proximas Actividades</div>
+    <div style="display: flex; justify-content: space-between;">
+      <img src="Css/Img/calendario.png">
+      <div>Calendario</div>
+      <div><button>Revisar</button></div>
+    </div>
+  </div>
+</div>
+</div>
+  </div>
+</section>
+
+<section id="Motoristas" class="Oculto" >
+  <div style="display:flex; flex-direction: column; justify-content: center;">
+    <nav>
+      <img class="logo" src="Css/Img/Nlogo.png">
+      <div class="titulo">Inicio</div>
+      <img class="ms" src="Css/Img/mensaje.png">
+    </nav>
+<div style="display: flex; justify-content: space-between;">
+ <div class="menu-icon"> 
+  <div class="menu">
+  <button type="submit" class="icon"  onclick="mostrarSiguiente('cliente')"><h6 >Clientes</h6> <img src="Css/Img/clientes.png" ></button>
+  <button type="submit" class="icon" onclick="mostrarSiguiente('inicio')"> <img src="Css/Img/inicio.png" ></button>
+  <button type="submit" class="icon" onclick="mostrarSiguiente('EAfiliadas')"><h6>Empresas Afiliadas</h6> <img src="Css/Img/empresas afiliadas.png" ></button>
+  </div>
+ <div class="menu">
+  <button type="submit" class="icon" onclick="mostrarSiguiente('Motoristas')"><h6>Motoristas</h6> <img src="Css/Img/motoristas.png" ></button>
+  <button type="submit" class="icon" onclick="mostrarSiguiente('Admin')"><h6>Administracion</h6> <img src="Css/Img/administracion.png" ></button>
+ </div>
+</div>
+
+<div class="contInicio">
+  <div class="cajitas">
+   <div class="titulo">Desempeño del equipo</div>
+  <div style="display: flex; justify-content: space-between;">
+    <img src="Css/Img/iciniUsuario.png">
+    <div><button>Revisar</button></div>
+  </div>
+</div>
+  <div class="cajitas">
+    <div class="titulo">Encargo Manual</div>
+    <div style="display: flex; justify-content: space-between;">
+      <img src="Css/Img/encargo.png">
+      <div><button>Revisar</button></div>
+    </div>
+  </div>
+</div>
+</div>
+  </div>
+</section>
+
+<section id="Admin" class="Oculto" >
+  <div style="display:flex; flex-direction: column; justify-content: center;">
+    <nav>
+      <img class="logo" src="Css/Img/Nlogo.png">
+      <div class="titulo">Inicio</div>
+      <img class="ms" src="Css/Img/mensaje.png">
+    </nav>
+<div style="display: flex; justify-content: space-between;">
+ <div class="menu-icon"> 
+  <div class="menu">
+  <button type="submit" class="icon" onclick="mostrarSiguiente('cliente')"><h6 >Clientes</h6> <img src="Css/Img/clientes.png" ></button>
+  <button type="submit" class="icon" onclick="mostrarSiguiente('inicio')"> <img src="Css/Img/inicio.png" ></button>
+  <button type="submit" class="icon" onclick="mostrarSiguiente('EAfiliadas')"><h6>Empresas Afiliadas</h6> <img src="Css/Img/empresas afiliadas.png" ></button>
+  </div>
+ <div class="menu">
+  <button type="submit" class="icon" onclick="mostrarSiguiente('Motoristas')"><h6>Motoristas</h6> <img src="Css/Img/motoristas.png" ></button>
+  <button type="submit" class="icon" onclick="mostrarSiguiente('Admin')"><h6>Administracion</h6> <img src="Css/Img/administracion.png" ></button>
+ </div>
+</div>
+
+<div class="contInicio">
+  <div class="cajitas">
+   <div class="titulo">Perfil de usuario</div>
+  <div style="display: flex; justify-content: space-between;">
+    <img src="Css/Img/iciniUsuario.png">
+    <div>Nombre administrador <br> @PerfilAdmin</div>
+    <div><button>Revisar</button></div>
+  </div>
+</div>
+  <div class="cajitas">
+    <div class="titulo">Proximas Actividades</div>
+    <div style="display: flex; justify-content: space-between;">
+      <img src="Css/Img/calendario.png">
+      <div>Calendario</div>
+      <div><button>Revisar</button></div>
+    </div>
+  </div>
+</div>
+</div>
+  </div>
+</section>
+
+
+  
+<script src="Js/ctrl.js"></script>
+</body>
+</html>
