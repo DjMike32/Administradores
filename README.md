@@ -1,2 +1,2 @@
 # Administradores
-Frontend de la pagina de administradores
+Frontend y Backend de la pagina de administradores
